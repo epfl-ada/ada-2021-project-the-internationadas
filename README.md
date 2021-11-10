@@ -5,8 +5,7 @@
 3. [Proposed Additional Datasets](#Proposed-Additional-Datasets)
 4. [Methods](#Methods)
 5. [Setup](#Setup)
-6. [Proposed Timeline](#Proposed-Timeline)
-7. [Organization within the Team](#Team-Organization)
+6. [Proposed Timeline and Team Organization](#Proposed-Timeline-and-Team-Organization)
 8. [Questions for TAs](#Questions-for-TAs)
 ## Abstract
 One of the most pressing problems facing our society today is animosity across political and social lines. It causes tensions between family and friends, co-workers and colleagues, politicians, and the public at large. The acrimony between political groups makes it challenging for people and the government that serves them to solve societal problems. We provide an NLP framework that examines the differences in how ideological subgroups of American politicans express themselves to better understand how a polarization of beliefs can occur in today's media. Our work contributes to a deeper understanding of how group divisions manifest themselves in language and provides computational methods for studying them.
@@ -37,18 +36,16 @@ The overall structure should look like this:
 │ 
 ```
 
-## Proposed Timeline
-
-## Team Organization
+## Proposed Timeline and Team Organization
 
 | Project Milestone     | Date             | Task                          | Deliverables |
 |-----------------------|------------------|-------------------------------|--------------|
-| P2.1                  | 2021-11-15       |S      | |
-| P2.1                  | 2021-11-16       | NLP pre-processing | |
-| P2.2                  | 2021-11-17       | Define measures of group affiliation such as between-group difference and within-group similarity   | |
-| P2.3                  | 2021-11-18       | | |
-| P2.4                  | 2021-11-19       | | |
-| P3.                   | 2021-12-17       | | |
+| P2.1                  | 2021-11-21       | Finalize data transformations | Merged, cleaned and deduplicated dataset with initial descriptive statistics |
+| P2.2                  | 2021-12-05       | NLP pre-processing of the quotes | NLP embeddings|
+| P2.3                  | 2021-12-08       | Define topics/concepts (e.g., remembrance, solidarity, ...) and measures to compare subgroups against these topics such as between-group difference and within-group similarity   | |
+| P2.4                  | 2021-12-12       | Inferential statistical analysis | Jupyter notebook and textual descriptions|
+| P2.5                  | 2021-12-15       | Create datastory | Web page visualizing our data story|
+| P3.                   | 2021-12-17       | Buffer for refinements | final repository containing a well-defined README, a web page visualizing our datastory and a supporting Jupyter notebook   |
 
 ## TA Questions
 
