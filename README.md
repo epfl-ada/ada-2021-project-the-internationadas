@@ -41,14 +41,14 @@ The overall structure should look like this:
 
 ## Team Organization
 
-| Project Milestone     | Date         | Task                          | Deliverables |
-|-----------------------|--------------|-------------------------------|--------------|
-| P2.1                  | 2021-11-15   |S      | |
-| P2.1                  | 2021-11-16   | NLP pre-processing | |
-| P2.2                  | 2021-11-17   | Define measures of group affiliation such as between-group difference and within-group similarity   | |
-| P2.3                  | 2021-11-18   | | |
-| P2.4                  | 2021-11-19   | | |
-| P3.                   | 2021-12-17   | | |
+| Project Milestone     | Date             | Task                          | Deliverables |
+|-----------------------|------------------|-------------------------------|--------------|
+| P2.1                  | 2021-11-15       |S      | |
+| P2.1                  | 2021-11-16       | NLP pre-processing | |
+| P2.2                  | 2021-11-17       | Define measures of group affiliation such as between-group difference and within-group similarity   | |
+| P2.3                  | 2021-11-18       | | |
+| P2.4                  | 2021-11-19       | | |
+| P3.                   | 2021-12-17       | | |
 
 ## TA Questions
 
