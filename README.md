@@ -45,7 +45,7 @@ The overall structure should look like this:
 | P2.3                  | 2021-12-08       | Define topics/concepts (e.g., remembrance, solidarity, ...) and measures to compare subgroups against these topics such as between-group difference and within-group similarity   | |
 | P2.4                  | 2021-12-12       | Inferential statistical analysis | Jupyter notebook and textual descriptions|
 | P2.5                  | 2021-12-15       | Create datastory | Web page visualizing our data story|
-| P3.                   | 2021-12-17       | Buffer for refinements | final repository containing a well-defined README, a web page visualizing our datastory and a supporting Jupyter notebook   |
+| P3                    | 2021-12-17       | Buffer for refinements | final repository containing a well-defined README, a web page visualizing our datastory and a supporting Jupyter notebook   |
 
 ## TA Questions
 
