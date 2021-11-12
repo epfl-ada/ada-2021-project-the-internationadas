@@ -31,11 +31,11 @@ Our project aims to answer the following questions:
 5. Initial topic selection: Climate Change. Fix a vocabulary list related to this topic and only leave quotations that contain at least one word from this list.
 * **NLP Embeddings and Similarity Comparison** 
 6. We decided to use BERT’s pre-trained Sentence Transformer to embed the quotations that contain at least one word from the Vocabulary list (This is a link to an example vocabulary related to climate change [link](https://www.health.state.mn.us/communities/environment/climate/docs/film/vocab_list.pdf)) into numerical arrays. 
-7. With the embeddings as a vantage point, we will use similarity metrics such as the cosine similarity or the Euclidean-distance to calculate the similarity between the quotations of people with different political background.
+7. With the embeddings as a vantage point, we will use similarity metrics such as the cosine similarity or the Euclidean-distance to calculate the similarity between the quotations of people with different socio-political background.
 ## Setup
 To get started, it is necessary to install the `requirements.txt`.
 As even our transformed and filtered dataset is relatively large, we did not include it in the repo. Instead, we'd like to ask you to download it from our [Drive](https://drive.google.com/drive/folders/1GcNp2lkck9E2atJnqw2CAvofDEi9H4s5?usp=sharing).
-Simply link the drive folder to your own root driver directory. As we committed precompiled Jupyter Notebooks, you can already get an idea of our initial analyses and data handling pipelines by looking at the notebooks.
+Simply link the drive folder to your own root drive directory. As we committed precompiled Jupyter Notebooks, you can already get an idea of our initial analyses and data handling pipelines by looking at the notebooks.
 The overall structure should look like this:
 
 ```bash
