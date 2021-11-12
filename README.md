@@ -34,21 +34,22 @@ Our project aims to answer the following questions:
 7. With the embeddings as a vantage point, we will use similarity metrics such as the cosine similarity or the Euclidean-distance to calculate the similarity between the quotations of people with different political background.
 ## Setup
 To get started, it is necessary to install the `requirements.txt`.
-As even our transformed and filtered dataset is relatively large, we did not include it in the repo. Instead, we'd like to ask you to download it from our [Drive](https://drive.google.com/drive/folders/1Pi9XV9RcRePrITCkfHs8njhgbE0YbsIy?usp=sharing).
-Simply put the compressed JSON file into the `data` folder. In case you don't want to get your hands dirty and re-execute our pipeline, you can skip the step of manually adding the dataset. As we committed precompiled Jupyter Notebooks, you can already get an idea of our initial analyses and data handling pipelines by looking at the notebooks.
+As even our transformed and filtered dataset is relatively large, we did not include it in the repo. Instead, we'd like to ask you to download it from our [Drive](https://drive.google.com/drive/folders/1GcNp2lkck9E2atJnqw2CAvofDEi9H4s5?usp=sharing).
+Simply link the drive folder to your own root driver directory. As we committed precompiled Jupyter Notebooks, you can already get an idea of our initial analyses and data handling pipelines by looking at the notebooks.
 The overall structure should look like this:
+
 ```bash
 .
 ├── requirements.txt
-├── data
-│   └── quotes-enriched-2015-2020-repub-dem.json.bz2
+├── README.md
 │ 
 ├── scripts
-│   ├── data_loading_transformation.ipynb
-│   └── data_analysis.ipynb
+│   ├── load_data.ipynb
+│   └── load_exploration.ipynb
 │ 
 ```
-
+The *load_data.ipynb* notebook contains functions to load data from a json file (found [here](https://drive.google.com/drive/folders/1R-GVIdxU3jkQb5zU0uG9044Vynh9nYR1?usp=sharing)), and perform initial filtering operations).<br>
+The *load_exploration.ipynb* notebook instead contains a function to load, merge and perform additional filtering operation on preprocessed data for different years, together with the initial analysis with as target our initial question.
 ## Proposed Timeline and Team Organization
 
 | Project Milestone     | Date                   | Task                          | Deliverables |
@@ -62,7 +63,7 @@ The overall structure should look like this:
 
 ## TA Questions
 * Do you think our research questions are well-formulated and feasible?
-* We have 72577 quotations related to climate change. Do you think these are enough to do answer our research questions? 
+* We have 72577 quotations related to climate change. Do you think these are enough to answer our research questions? 
 * If you have better topic suggestion, we will be happy to take your advice!
 * If you have some tips or see possible improvements regarding how to better handle data of such size, we are happy to listen to your feedback!
 
