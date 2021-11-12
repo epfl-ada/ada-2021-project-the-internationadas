@@ -1,4 +1,4 @@
-# Do people with different ideologies speak differently? - Analyzing polarization in quotes related to climate change from American politicians
+# Do people with different ideologies speak differently? 
 ## Content
 1. [Abstract](#Abstract)
 2. [Research Questions](#Research-Questions)
@@ -28,9 +28,10 @@ Our project aims to answer the following questions:
 2. Drop  quotations with uncertain speakers: For that we set the probability threshold to 0.6.
 3. Drop quotations of politicians who switched parties during the time frame.
 4. Initial analysis based on political party and gender. 
+5. Initial topic selection: * Climate Change. Fixe a vocabulary list related to this topic and only leave Quotations that contain at least one word from this list.
 * NLP Embeddings and Similarity Comparison:  
-5. We decided to use BERT’s pre-trained Sentence Transformer to embed the Quotations that contain at least one word from the Vocabulary list (This is a link to an example vocabulary related to climate change [link](https://www.health.state.mn.us/communities/environment/climate/docs/film/vocab_list.pdf)) into numerical arrays. 
-6. With the embeddings as a vantage point, we will use similarity metrics such as the cosine similarity or the Euclidean-distance to calculate the similarity between the quotations of people with different political background.
+6. We decided to use BERT’s pre-trained Sentence Transformer to embed the Quotations that contain at least one word from the Vocabulary list (This is a link to an example vocabulary related to climate change [link](https://www.health.state.mn.us/communities/environment/climate/docs/film/vocab_list.pdf)) into numerical arrays. 
+7. With the embeddings as a vantage point, we will use similarity metrics such as the cosine similarity or the Euclidean-distance to calculate the similarity between the quotations of people with different political background.
 ## Setup
 To get started, it is necessary to install the `requirements.txt`.
 As even our transformed and filtered dataset is relatively large, we did not include it in the repo. Instead, we'd like to ask you to download it from our [Drive](https://drive.google.com/drive/folders/1Pi9XV9RcRePrITCkfHs8njhgbE0YbsIy?usp=sharing).
