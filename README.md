@@ -48,8 +48,8 @@ The overall structure should look like this:
 │   └── data_exploration.ipynb
 │ 
 ```
-The `load_data.ipynb` notebook contains functions to load data from a json file (found [here](https://drive.google.com/drive/folders/1R-GVIdxU3jkQb5zU0uG9044Vynh9nYR1?usp=sharing)), and perform initial filtering operations).<br>
-The *load_exploration.ipynb* notebook instead contains a function to load, merge and perform additional filtering operation on preprocessed data for different years, together with the initial analysis with as target our initial question.
+* `load_data.ipynb` notebook contains functions to load data from a json file (found [here](https://drive.google.com/drive/folders/1R-GVIdxU3jkQb5zU0uG9044Vynh9nYR1?usp=sharing)), and perform initial filtering operations.<br>
+* `data_exploration.ipynb` notebook instead contains a function to load, merge and perform additional filtering operation on preprocessed data for different years, together with the initial analysis with as target our initial question.
 ## Proposed Timeline and Team Organization
 
 | Project Milestone     | Date                   | Task                          | Deliverables |
