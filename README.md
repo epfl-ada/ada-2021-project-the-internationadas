@@ -54,11 +54,11 @@ The overall structure should look like this:
 
 | Project Milestone     | Date                   | Task                          | Deliverables |
 |-----------------------|------------------------|-------------------------------|--------------|
-| P2.1                  | until 2021-11-21       | Finalize data transformations | Merged, cleaned and deduplicated dataset with initial descriptive statistics |
-| P2.2                  | until 2021-12-05       | NLP pre-processing of the quotes using BERT | NLP embeddings|
-| P2.3                  | until 2021-12-08       | Define topics/concepts (e.g., remembrance, solidarity, ...) and measures to compare subgroups against these topics such as between-group difference and within-group similarity   | list of topics and nearest word stems |
-| P2.4                  | until 2021-12-12       | Inferential statistical analysis | Jupyter notebook with plots and textual descriptions|
-| P2.5                  | until 2021-12-15       | Create datastory | Web page visualizing our data story|
+| P2                    | until 2021-11-12       | Finalize data transformations | Merged, cleaned and deduplicated dataset with initial descriptive statistics |
+| P2.1                  | until 2021-12-01       | NLP pre-processing of the quotes using BERT | NLP embeddings|
+| P2.2                  | until 2021-12-05       | Define topics/concepts (e.g., remembrance, solidarity, ...) and measures to compare subgroups against these topics such as between-group difference and within-group similarity   | list of topics and nearest word stems |
+| P2.3                  | until 2021-12-08       | Inferential statistical analysis | Jupyter notebook with plots and textual descriptions|
+| P2.4                  | until 2021-12-15       | Create datastory | Web page visualizing our data story|
 | P3                    | until 2021-12-17       | Buffer for refinements | final repository containing a well-defined README, a web page visualizing our datastory and a supporting Jupyter notebook   |
 
 ## TA Questions
