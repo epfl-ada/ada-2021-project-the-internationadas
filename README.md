@@ -1,4 +1,4 @@
-# Do people with different ideologies speak differently? 
+# Do People With Different Ideologies Speak Differently?
 ## Content
 1. [Abstract](#Abstract)
 2. [Research Questions](#Research-Questions)
