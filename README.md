@@ -1,4 +1,4 @@
-# Do people with different ideologies speak differently?
+# Do people with different ideologies speak differently? - Analyzing polarization in quotes related to climate change from American politicians
 ## Content
 1. [Abstract](#Abstract)
 2. [Research Questions](#Research-Questions)
@@ -8,8 +8,9 @@
 6. [Proposed Timeline and Team Organization](#Proposed-Timeline-and-Team-Organization)
 8. [Questions for TAs](#Questions-for-TAs)
 ## Abstract
-One of the most pressing problems facing our society today is animosity across political and social lines. It causes tensions between family and friends, co-workers and colleagues, politicians, and the public at large. The acrimony between political groups makes it challenging for people and the government that serves them to solve societal problems. We provide an NLP framework that examines the differences in how ideological subgroups of American politicans express themselves to better understand how a polarization of beliefs can occur in today's media. Our work contributes to a deeper understanding of how group divisions manifest themselves in language and provides computational methods for studying them.
+One of the most pressing problems facing our society today is animosity across political and social lines. It causes tensions between family and friends, politicians, and the public at large. The acrimony between political groups makes it challenging for people and the government that serves them to solve societal problems. We provide an NLP framework that examines the differences in how ideological subgroups of American politicans express themselves to better understand how a polarization of beliefs can occur in today's media. Using the example of climate change, we aim to provide evidence that the discussion around this phenomenon is highly polarized and that this polarization is motivated by differences between socio-political subgroups. To achieve this, we extract quotations related to climate change that have been uttered by Democrats and Republicans between 2015 and 2020 from the quotebank dataset. We then propose to enrich these quotations with socio-demographic data and cluster the quotation embeddings as a means to identify prominent topics. Measuring within-topic and between-topic group affiliation, our work aims to contribute to a deeper understanding of how group divisions manifest themselves in language.
 ## Research Questions
+Our project aims to answer the following questions:
 * RQ1: What are the most common topics discussed by American Politicians in media?
 * RQ2: What is different about how people from different socio-political backgrounds talk?
 * RQ3: How could these differences help understand the causes and consequences of media polarization?
