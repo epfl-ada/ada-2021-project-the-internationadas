@@ -8,8 +8,10 @@
 6. [Proposed Timeline and Team Organization](#Proposed-Timeline-and-Team-Organization)
 8. [Questions for TAs](#Questions-for-TAs)
 ## Abstract
-One of the most pressing problems facing our society today is animosity across political and social lines. It causes tensions between family and friends, co-workers and colleagues, politicians, and the public at large. The acrimony between political groups makes it challenging for people and the government that serves them to solve societal problems. We provide an NLP framework that examines the differences in how ideological subgroups of American politicans express themselves to better understand how a polarization of beliefs can occur in today's media. Our work contributes to a deeper understanding of how group divisions manifest themselves in language and provides computational methods for studying them.
+One of the most pressing problems facing our society today is animosity across political and social lines. It causes tensions between family and friends, co-workers and colleagues, politicians, and the public at large. The acrimony between political groups makes it challenging for people and the government that serves them to solve societal problems. We provide an NLP framework that examines the differences in how ideological subgroups of American politicans express themselves to better understand how a polarization of beliefs can occur in today's media. To achieve this, we extract quotations uttered by Democrats and Republicans between 2015 and 2020 from the quotebank dataset. We enrich these quotations with socio-demographic data from WikiData. We propose to cluster the quotation embeddings
+as a means to identify controversial topics among the subgroups. Our work contributes to a deeper understanding of how group divisions manifest themselves in language and provides computational methods for studying them.
 ## Research Questions
+Our project aims to answer the following questions:
 * RQ1: What are the most common topics discussed by American Politicians in media?
 * RQ2: What is different about how people from different socio-political backgrounds talk?
 * RQ3: How could these differences help understand the causes and consequences of media polarization?
