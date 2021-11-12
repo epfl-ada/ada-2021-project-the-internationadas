@@ -19,17 +19,17 @@ Our project aims to answer the following questions:
 * `Quotebank`:  Quotation-centric data set of unique quotations with the most likely speaker from 2015-2020
 * `WikiData`: Central storage for the structured data of its Wikimedia sister projects including Wikipedia. We use it to enrich the quotations with socio-demographic data of the speakers (e.g., party, gender, occupation)
 ## Methods
-* Data Loading: 
+* **Data Loading**
 1. load and filter wikidata Quotebank datasets: The filtering is based on polytical parties.
 2. Merge quotebank and wikidata on the QID.
 3. Store merged df for each year in an additional parquet file.
-* Data Preprocessing and Exploration: 
+* **Data Preprocessing and Exploration**
 1. Drop the quotations with multiple possible Speakers.
 2. Drop  quotations with uncertain speakers: For that we set the probability threshold to 0.6.
 3. Drop quotations of politicians who switched parties during the time frame.
 4. Initial analysis based on political party and gender. 
 5. Initial topic selection: * Climate Change. Fixe a vocabulary list related to this topic and only leave Quotations that contain at least one word from this list.
-* NLP Embeddings and Similarity Comparison:  
+* **NLP Embeddings and Similarity Comparison** 
 6. We decided to use BERT’s pre-trained Sentence Transformer to embed the Quotations that contain at least one word from the Vocabulary list (This is a link to an example vocabulary related to climate change [link](https://www.health.state.mn.us/communities/environment/climate/docs/film/vocab_list.pdf)) into numerical arrays. 
 7. With the embeddings as a vantage point, we will use similarity metrics such as the cosine similarity or the Euclidean-distance to calculate the similarity between the quotations of people with different political background.
 ## Setup
@@ -64,7 +64,7 @@ The *load_exploration.ipynb* notebook instead contains a function to load, merge
 ## TA Questions
 * Do you think our research questions are well-formulated and feasible?
 * We have 72577 quotations related to climate change. Do you think these are enough to answer our research questions? 
-* If you have better topic suggestion, we will be happy to take your advice!
+* If you have better topic suggestions, we would be happy to take your advice!
 * If you have some tips or see possible improvements regarding how to better handle data of such size, we are happy to listen to your feedback!
 
 
